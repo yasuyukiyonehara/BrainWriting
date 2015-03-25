@@ -1,0 +1,84 @@
+
+.back {
+        position: relative;
+        width: 1200px;
+        height: 600px;
+        border: solid 10px Black;
+        margin: 0 auto;
+
+                }
+
+.topics {
+        position: absolute;
+        top: 20px;
+        left:20px;
+        width: 500px;
+        height: 50px;
+        border: solid; 5px Black;
+        text-align: center;
+        font-size: 36px;
+
+        }
+
+.timer {
+        position: absolute;
+        top: 20px;
+        right:20px;
+        width: 80px;
+        height: 80px;
+        border: solid; 5px Black;
+        }
+
+.menber1 {
+        position: absolute;
+        bottom: 0px;
+        left: 20px;
+        width: 200px;
+        height: 30px;
+        border: solid; 1px Black;
+        }
+
+.menber2 {
+        position: absolute;
+        bottom: 0px;
+        left: 250px;
+        width: 200px;
+        height: 30px;
+        border: solid; 1px Black;
+        }
+
+.menber3 {
+        position: absolute;
+        bottom: 0px;
+        right: 250px;
+        width: 200px;
+        height: 30px;
+        border: solid; 1px Black;
+        }
+
+.menber4 {
+        position: absolute;
+        bottom: 0px;
+        right: 20px;
+        width: 200px;
+        height: 30px;
+        border: solid; 1px Black;
+        }
+
+.card {
+        position: absolute;
+        bottom: 10px;
+        left: 40%;
+        width: 200px;
+        height: 150px;
+        border: solid; 1px Black;
+        margin: 0 auto;
+        }
+
+.outcard1 {
+        border:solid; 1px Black;
+        width: 200px;
+        height: 150px;
+        left: 30px;
+        }
+
