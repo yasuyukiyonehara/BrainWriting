@@ -1,84 +1,210 @@
+/*
+===========================================*/
 
-.back {
-        position: relative;
-        width: 1200px;
-        height: 600px;
-        border: solid 10px Black;
-        margin: 0 auto;
+@charset "utf-8";
 
-                }
+/*import.css*/
 
-.topics {
-        position: absolute;
-        top: 20px;
-        left:20px;
-        width: 500px;
-        height: 50px;
-        border: solid; 5px Black;
-        text-align: center;
-        font-size: 36px;
+/* layouts
+========================================== */
+/*@import "base/reset.css";*/
+/*@import "base/structure.css";*/
+/*@import "base/header.css";*/
+/*@import "base/contents.css";*/
+/*@import "base/footer.css";*/
 
-        }
+/*reset.css*/
+/* =======================================
+    Browser Reset CSS
+    Last Up Date 0000/00/00
+========================================== */
 
-.timer {
-        position: absolute;
-        top: 20px;
-        right:20px;
-        width: 80px;
-        height: 80px;
-        border: solid; 5px Black;
-        }
+body,div,dl,dt,dd,ul,ol,li,
+h1,h2,h3,h4,h5,h6,
+pre,code,form,fieldset,legend,
+p,blockquote,table,th,td {
+        margin: 0; padding: 0;
+}
 
-.menber1 {
-        position: absolute;
-        bottom: 0px;
-        left: 20px;
-        width: 200px;
-        height: 30px;
-        border: solid; 1px Black;
-        }
+html,body {
+        background: #FFF; color: #000;
+}
 
-.menber2 {
-        position: absolute;
-        bottom: 0px;
-        left: 250px;
-        width: 200px;
-        height: 30px;
-        border: solid; 1px Black;
-        }
+body {
+        font:13px/1 "メイリオ","Meiryo","ＭＳ Ｐゴシック","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3",sans-serif;
+}
+* html body {
+        font-size: small;
+}
+*:first-child+html body {
+        font-size: small;
+}
 
-.menber3 {
-        position: absolute;
-        bottom: 0px;
-        right: 250px;
-        width: 200px;
-        height: 30px;
-        border: solid; 1px Black;
-        }
+img {
+        border: 0; vertical-align: top;
+}
 
-.menber4 {
-        position: absolute;
-        bottom: 0px;
-        right: 20px;
-        width: 200px;
-        height: 30px;
-        border: solid; 1px Black;
-        }
+h1,h2,h3,h4,h5,h6 {
+        clear: both; font-size: 100%; font-weight: normal;
+}
 
-.card {
-        position: absolute;
-        bottom: 10px;
-        left: 40%;
-        width: 200px;
-        height: 150px;
-        border: solid; 1px Black;
-        margin: 0 auto;
-        }
+ul,dl,ol {
+        text-indent: 0;
+}
+li {
+        list-style: none;
+}
 
-.outcard1 {
-        border:solid; 1px Black;
-        width: 200px;
-        height: 150px;
-        left: 30px;
-        }
+address,caption,cite,code,dfn,em,strong,th,var {
+        font-style: normal; font-weight: normal;
+}
 
+sup {
+        vertical-align: text-top;
+}
+
+sub {
+        vertical-align: text-bottom;
+}
+
+input,textarea,select {
+        font-family: inherit; font-size: inherit; font-weight:inherit;
+}
+
+* html input,* html textarea,* html select {
+        font-size: 100%;
+}
+
+*:first-child+html+input,*:first-child html+textarea,*:first-child+html select {
+        font-size: 100%;
+}
+
+table {
+        border-collapse: collapse; border-spacing: 0; font-size: inherit;
+}
+
+th,td {
+        text-align: left; vertical-align: top;
+}
+
+caption {
+        text-align: left;
+}
+
+pre,code,kbd,samp,tt {
+        font-family: monospace;
+}
+
+* html pre,* html code,* html kbd,* html samp,* html tt {
+        font-size: 100%; line-height: 100%;
+}
+
+*:first-child+html pre,*:first-child html+code,*:first-child html+kbd,*:first-child+html+samp,*:first-child+html tt {
+        font-size: 108%; line-height: 100%;
+}
+
+input,select,textarea {
+        font-size: 100%; font-family: Verdana, Helvetica, sans-serif;
+}
+
+/*structure.css*/
+/* =======================================
+    structure CSS
+========================================== */
+#wrapper {
+        background-color: lightgrey;
+        padding: 10px;
+}
+
+/*header.css*/
+/* =======================================
+    header CSS
+ ========================================= */
+#wrapper #header {
+        background-color: darkgray;
+
+}
+
+#wrapper #header .section {
+        font-size: large;
+
+}
+
+#wrapper #header #TopicsSection {
+        float: left;
+        background-color: silver;
+        padding :30px;
+
+}
+
+#wrapper #header #TimerSection {
+        float: right;
+        background-color: White;
+        padding: 30px;
+        padding-right: 50px;
+}
+
+#wrapper #header .clearfix {
+        clear: both;
+}
+
+
+/*contents.css*/
+/* =======================================
+    contents CSS
+========================================== */
+
+/*footer.css*/
+/* =======================================
+    footer CSS
+========================================== */
+
+/* -----.css*/
+/* =======================================
+    ----- CSS
+========================================== */
+
+/*ここからがオリジナル*/
+
+
+
+
+#back {
+        width: ;
+        height: ;
+}
+
+#topics {
+        width: ;
+        height: ;
+}
+
+#timer {
+        width: ;
+        height: ;
+}
+
+#stage {
+        width: ;
+        height: ;
+}
+
+#outcard {
+        width: ;
+        height: ;
+}
+
+#menberbord {
+        width: ;
+        height: ;
+}
+
+#menber {
+        width: ;
+        height: ;
+}
+
+#card {
+        width: ;
+        height: ;
+}
